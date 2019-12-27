@@ -8,7 +8,7 @@ Description: The functions return the volumetric and phytosociological sampling 
 License: GPL-3.0
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
   data.table,
   dplyr,
   flextable,
