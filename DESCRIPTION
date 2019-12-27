@@ -8,6 +8,7 @@ Description: The functions return the volumetric and phytosociological sampling 
 License: GPL-3.0
 Encoding: UTF-8
 LazyData: true
+Citation: https://github.com/igorcobelo/forestry/blob/master/CITATION
 Depends:
   data.table,
   dplyr,
