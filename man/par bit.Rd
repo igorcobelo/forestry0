@@ -39,7 +39,13 @@ Igor Cobelo Ferreira <cobelo.igor@gmail.com>
 }
 \note{
 The function calculates the critical distance to check for inclusion or exclusion of doubtful trees, being included in the sample only those with radial distance less than or equal to the critical distance. Even if there are no doubtful trees, the radial distance column (fifth column) is required, in blank.
-}
+
+  To cite forestry in publications, please use:
+
+  Ferreira, Igor C. (2020). forestry: Functions for Forest Inventory. R
+  package version 0.1.0. Brasilia, Brazil.
+  http://github.com/igorcobelo/forestry
+  }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
