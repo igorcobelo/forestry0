@@ -1,0 +1,11 @@
+Ferreira, Igor C. (2020). forestry: Functions for Forest Inventory. R package version 0.1.0, https://github.com/igorcobelo/forestry.
+
+Corresponding BibTeX entry:
+
+  @Manual{,
+    title = {{forestry}: Functions for Forest Inventory},
+    author = {Igor Cobelo Ferreira},
+    year = {2020},
+    note = {R package version 0.1.0},
+    url = {https://github.com/igorcobelo/forestry},
+  }
