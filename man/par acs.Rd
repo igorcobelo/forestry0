@@ -36,7 +36,11 @@ Pellico  Netto,  S.;  Brena,  D. (1997).  Inventario  florestal.  Curitiba:  Uni
 Igor Cobelo Ferreira <cobelo.igor@gmail.com>
 }
 \note{
+To cite forestry in publications, please use:
 
+  Ferreira, Igor C. (2020). forestry: Functions for Forest Inventory. R
+  package version 0.1.0. Brasilia, Brazil.
+  http://github.com/igorcobelo/forestry
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
