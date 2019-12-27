@@ -1,0 +1,10 @@
+Package: forestry
+Type: Package
+Title: Functions for Forest Inventory
+Version: 0.1.0
+Author: Igor Cobelo Ferreira <cobelo.igor@gmail.com>
+Maintainer: Igor Cobelo Ferreira <cobelo.igor@gmail.com>
+Description: The functions return the volumetric and phytosociological sampling parameters for forest inventory.
+License: GPL-3.0
+Encoding: UTF-8
+LazyData: true
