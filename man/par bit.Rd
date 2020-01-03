@@ -13,7 +13,7 @@ bit(x,A,k,E=0.1,p=0.05,rn=F,pt=T,ampl=5,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{A data frame with six columns: sample points in the first (in numerals), numbering of individuals in the second (in numerals), height in the third (in meters), diameter in the fourth (in centimeters), radial distance in the fifth (in meters) and volume in the last (in cubic meters).}
+  \item{x}{A data frame with seven columns: sample points in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters), radial distance in the sixth (in meters) and volume in the last (in cubic meters).}
   \item{A}{Total area, in hectares.}
   \item{k}{Basal area factor.}
   \item{E}{Required error, in decimal value. Default is 0.1.}
@@ -38,7 +38,8 @@ Pellico  Netto,  S.;  Brena,  D. (1997).  Inventario  florestal.  Curitiba:  Uni
 Igor Cobelo Ferreira <cobelo.igor@gmail.com>
 }
 \note{
-The function calculates the critical distance to check for inclusion or exclusion of doubtful trees, being included in the sample only those with radial distance less than or equal to the critical distance. Even if there are no doubtful trees, the radial distance column (fifth column) is required, in blank.
+
+  The function calculates the critical distance to check for inclusion or exclusion of doubtful trees, being included in the sample only those with radial distance less than or equal to the critical distance. Even if there are no doubtful trees, the radial distance column (fifth column) is required, in blank.
 
   To cite forestry in publications, please use:
 
