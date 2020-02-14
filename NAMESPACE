@@ -1,8 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-
-#' @import data.table
-#' @import dplyr
-#' @import flextable
-#' @import ggplot2
-#' @import officer
-#' @import tidyverse
