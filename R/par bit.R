@@ -1,4 +1,4 @@
-bit<-function(x,A,k,E=0.1,p=0.05,rn=F,pt=F,ampl=5,prot=NULL,...){
+bit<-function(x,A,k,E=0.1,p=0.05,rn=F,pt=T,ampl=5,prot=NULL,...){
 
 
   nm <-deparse(substitute(x))
@@ -382,7 +382,7 @@ vahh<-as.data.frame(vah)
   dtt3<-italic(dtt3,j=1)
 
 
-  #Gráfico fito
+  #GrÃ¡fico fito
 
   if(pt==T){
 
