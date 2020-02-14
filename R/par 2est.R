@@ -1,4 +1,4 @@
-twos<-function(x,A,an,am,E=0.1,p=0.05,c=1,rn=F,pt=F,prot=NULL,ampl=5,...){
+twos<-function(x,A,an,am,E=0.1,p=0.05,c=1,rn=F,pt=T,prot=NULL,ampl=5,...){
 
 
   #para que o arquivo docx seja nomeado com o mesmo nome do input
@@ -772,7 +772,7 @@ twos<-function(x,A,an,am,E=0.1,p=0.05,c=1,rn=F,pt=F,prot=NULL,ampl=5,...){
 
 
 
-  #Gráfico fito
+  #GrÃ¡fico fito
 
 
   if(pt==T){
