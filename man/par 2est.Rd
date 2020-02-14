@@ -1,5 +1,5 @@
-\name{dest}
-\alias{dest}
+\name{twos}
+\alias{twos}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Two-Stage Sampling and Phytosociological Parameters
@@ -8,7 +8,7 @@ Two-Stage Sampling and Phytosociological Parameters
 Calculates the two-stage and phytosociological sampling parameters.
 }
 \usage{
-dest(x,A,an,am,E=0.1,p=0.05,c=1,rn=F,pt=T,prot=NULL,ampl=5,...)
+twos(x,A,an,am,E=0.1,p=0.05,c=1,rn=F,pt=T,prot=NULL,ampl=5,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -61,7 +61,7 @@ getwd()
 10,000 ha primary and 0.25 ha secondary units, for a required error of 10
 percent and a significance level of 5 percent.
 
-dest(x,A=1000000,an=10000,am=0.25,E=0.1,p=0.05)
+twos(x,A=1000000,an=10000,am=0.25,E=0.1,p=0.05)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
