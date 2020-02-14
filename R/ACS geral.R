@@ -1,4 +1,4 @@
-acs<-function(x,A,a,E=0.1,p=0.05,prot=NULL,ampl=5,rn=T,pt=F,...){
+acs<-function(x,A,a,E=0.1,p=0.05,prot=NULL,ampl=5,rn=T,pt=T,...){
 
 
 nm <-deparse(substitute(x))
@@ -74,7 +74,7 @@ nm <-deparse(substitute(x))
   vopa2<-autofit(vopa2)
 
 
-  #parâmetros
+  #parÃ¢metros
   n<-ncol(vv)
   vv<-as.numeric(vv)
   y<-mean(vv)
@@ -84,7 +84,7 @@ nm <-deparse(substitute(x))
   N<-A/a
   invt<-qt(1-p/2, df=n-1)
 
-  #Fator de correção (finita ou infinita)
+  #Fator de correÃ§Ã£o (finita ou infinita)
   f<-1-n/N
 
   #Pop. infinita
@@ -132,15 +132,15 @@ nm <-deparse(substitute(x))
   }
   }
 
-  #Continua parâmetros
+  #Continua parÃ¢metros
   sy<-sqrt(s2y)
   eabs <- invt*sy
   erel <- (eabs/y)*100
 
-  #Estimativa do volume total da população
+  #Estimativa do volume total da populaÃ§Ã£o
   Y<-y*N
 
-  #Intervalo de Confiança
+  #Intervalo de ConfianÃ§a
   ICparmax<-y+eabs
   ICparmin<-y-eabs
 
@@ -346,7 +346,7 @@ nm <-deparse(substitute(x))
   dtt3<-italic(dtt3,j=1)
 
 
-  #Gráfico fito
+  #GrÃ¡fico fito
 
 
 
