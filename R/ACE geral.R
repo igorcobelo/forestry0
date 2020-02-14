@@ -1,4 +1,4 @@
-ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
+ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=T,...){
 
 
 
@@ -49,7 +49,7 @@ ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
   }
   vv<-as.data.frame(vv)
 
-  #Encontrar quantas parcelas h· em cada estrato
+  #Encontrar quantas parcelas h√° em cada estrato
   for(i in 1:max(x[,1])){
     ss<-c(length(unique(subset(x[,2], x[,1]==i))))
   }
@@ -98,7 +98,7 @@ ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
   vopa <- align_text_col(vopa, align = "center")
   vopa<-autofit(vopa)
 
-  #Vari‚ncia por estrato
+  #Vari√¢ncia por estrato
 
   vp<-data.frame(vp)
 
@@ -148,11 +148,11 @@ ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
   #t tabelado
   invt<-qt(1-p/2, df=sum(ss)-1)
 
-  #Fator de correÁ„o (finita ou infinita)
+  #Fator de corre√ß√£o (finita ou infinita)
   f<-1-sum(ss)/N
 
   if(prop==F){
-    #P/ ALOCA«√O ”TIMA
+    #P/ ALOCA√á√ÉO √ìTIMA
 
     if(f<0.98){
       #intensidade amostral FINITA
@@ -174,12 +174,12 @@ ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
       }
     }
 
-    #alocaÁ„o Ûtima dos estratos
+    #aloca√ß√£o √≥tima dos estratos
     nj<-(((P*s)/sum(P*s))*n)
   }
 
   if(prop==T){
-    #P/ ALOCA«√O PROPORCIONAL
+    #P/ ALOCA√á√ÉO PROPORCIONAL
 
     if(f<0.98){
       #intensidade amostral FINITA
@@ -201,7 +201,7 @@ ace<-function(x,a,aj,E=0.1,p=0.05,prot=NULL,ampl=5,prop=F,rn=F,pt=F,...){
       }
     }
 
-    #alocaÁ„o proporcional dos estratos
+    #aloca√ß√£o proporcional dos estratos
     nj<-as.data.frame(P*n)
 
   }
@@ -427,8 +427,8 @@ if(pt==T){
   if(sum(ss)>=n){
     if(pt==T){
     cat("\n------------------------------------------------------------------------------------\n")
-    cat("A intensidade amostral satisfaz o erro requerido de", E*100,"%, para um nÌvel de signific‚ncia de",p*100,"%.")
-    cat("\n Portanto, n„o È necess·rio amostrar mais parcelas.\n")
+    cat("A intensidade amostral satisfaz o erro requerido de", E*100,"%, para um n√≠vel de signific√¢ncia de",p*100,"%.")
+    cat("\n Portanto, n√£o √© necess√°rio amostrar mais parcelas.\n")
     cat("------------------------------------------------------------------------------------")
     }else{
       cat("\n------------------------------------------------------------------------------------\n")
@@ -442,8 +442,8 @@ if(pt==T){
   if(sum(ss)<n){
     if(pt==T){
     cat("\n------------------------------------------------------------------------------------\n")
-    cat("A intensidade amostral n„o satisfaz o erro requerido de", E*100,"%, para um nÌvel de signific‚ncia de",p*100,"%.")
-    cat("\n Portanto, È necess·rio amostrar mais",ceiling(n-sum(ss)),"parcelas.\n")
+    cat("A intensidade amostral n√£o satisfaz o erro requerido de", E*100,"%, para um n√≠vel de signific√¢ncia de",p*100,"%.")
+    cat("\n Portanto, √© necess√°rio amostrar mais",ceiling(n-sum(ss)),"parcelas.\n")
     cat("------------------------------------------------------------------------------------")
     }else{
       cat("\n------------------------------------------------------------------------------------\n")
@@ -467,7 +467,7 @@ if(pt==T){
     if(pt==T){
 
     cat("------------------------------------------------------------------------------------")
-    cat("\nH· diferenÁa significativa entre as mÈdias dos estratos.\n")
+    cat("\nH√° diferen√ßa significativa entre as m√©dias dos estratos.\n")
     cat("------------------------------------------------------------------------------------")
     }else{
       cat("------------------------------------------------------------------------------------")
@@ -481,7 +481,7 @@ if(pt==T){
 
     if(pt==T){
     cat("------------------------------------------------------------------------------------")
-    cat("\nN„o h· diferenÁa significativa entre as mÈdias dos estratos.\n")
+    cat("\nN√£o h√° diferen√ßa significativa entre as m√©dias dos estratos.\n")
     cat("------------------------------------------------------------------------------------")
     }else{
       cat("------------------------------------------------------------------------------------")
@@ -822,7 +822,7 @@ dtt<-dtt[!(dtt$n==0),]
     fitot<-italic(fitot,j=2)
 
 
-  #Gr·fico fito
+  #Gr√°fico fito
 
 
   if(pt==T){
