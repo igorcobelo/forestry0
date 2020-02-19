@@ -62,6 +62,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 ## Status
 The 'forestry' project is underway and aims to include other processes and methods of sampling in the package.
+If you have suggestions for improvements, please contact us.
 
 ## References
 
