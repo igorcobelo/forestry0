@@ -1,6 +1,6 @@
 Package: forestry
 Type: Package
-Title: Functions for Forest Inventory
+Title: A Simple R Package for Forest Inventory
 Version: 0.1.0
 Author: Igor Cobelo Ferreira <cobelo.igor@gmail.com>
 Maintainer: Igor Cobelo Ferreira <cobelo.igor@gmail.com>
