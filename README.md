@@ -34,7 +34,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 ![Example screenshot](./img/df1.png)
 
-#A docx file is then saved to your current directory. For the English language, use the argument pt=F (T is for the Portuguese language).
+#A docx file will be saved in your current directory after executing the function. For the English language, use the argument pt=F (T is for the Portuguese language).
 
 `acs(x, A=27, a=0.1, E=0.1, p=0.05, pt=F)`
 
