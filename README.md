@@ -44,8 +44,13 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 #If rn = T, the sample intensity is recalculated again from the value of t based on the first result of the sample intensity. The 'ampl' argument indicates the range of classes for the diametric distribution graph.
 
-#Output graphics:
+#Output graphic of diametric distribution:
 
+<img src="https://github.com/igorcobelo/forestry/blob/master/img/dd.png" width="500" height="333,33">
+
+#Output graphic of Importance Value Index:
+
+<img src="https://github.com/igorcobelo/forestry/blob/master/img/fyto.png" width="500" height="500">
 
 #See the documentation for the other functions:
 
