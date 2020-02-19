@@ -32,7 +32,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 #'x' must be a data frame with six columns: plots in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters) and volume in the sixth (in cubic meters):
 
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/df1.png)
 
 #A docx file is then saved to your current directory. For the English language, use the argument pt=F (T is for the Portuguese language).
 
