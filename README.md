@@ -4,7 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
-* [Features](#features)
+* [Code Examples](#code-examples)
 * [Status](#status)
 * [References](#references)
 * [Contact](#contact)
