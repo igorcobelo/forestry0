@@ -42,7 +42,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 `acs(x, A=27, a=0.1, E=0.1, p=0.05, pt=F, prot=c(Caryocar brasiliense, Myracrodruon urundeuva))`
 
-#If rn = T, the sample intensity is recalculated again from the value of t based on the first result of the sample intensity. The 'ampl' argument indicates the range of classes for the diametric distribution graph.
+#If rn=T, the sample intensity is recalculated again from the value of t based on the first result of the sample intensity. The 'ampl' argument indicates the range of classes for the diametric distribution graph.
 
 #Output graphic of diametric distribution:
 
