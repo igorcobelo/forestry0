@@ -30,7 +30,9 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 #Calculate the Simple Casual Sampling parameters for a required error of 10 percent and a significance level of 5 percent, for a total area of 27 hectares and plots of 0.1 hectares.
 
-#'x' must be a data frame with six columns: plots in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters) and volume in the sixth (in cubic meters).
+#'x' must be a data frame with six columns: plots in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters) and volume in the sixth (in cubic meters):
+
+![Example screenshot](./img/screenshot.png)
 
 #A docx file is then saved to your current directory. For the English language, use the argument pt=F (T is for the Portuguese language).
 
