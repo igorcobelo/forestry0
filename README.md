@@ -9,7 +9,7 @@
 * [References](#references)
 * [Contact](#contact)
 
-## General info
+## General info 
 The 'forestry' package emerged with the need to speed up the calculation of volumetric parameters for forest inventories, as well as phytosociological parameters, returning the main results in a docx file, using the 'officer' package. For now, the available samples are Simple Casual Sampling, Stratified Casual Sampling, Two Stage Sampling and the Bitterlich method.
 
 ## Setup
