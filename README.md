@@ -30,7 +30,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 #Calculate the Simple Casual Sampling parameters for a required error of 10 percent and a significance level of 5 percent, for a total area of 27 hectares and plots of 0.1 hectares.
 
-#x must be a data frame with six columns: plots in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters) and volume in the sixth (in cubic meters).
+#'x' must be a data frame with six columns: plots in the first (in numerals), numbering of individuals in the second (in numerals), species in the third, height in the fourth (in meters), diameter in the fifth (in centimeters) and volume in the sixth (in cubic meters).
 
 #A docx file is then saved to your current directory. For the English language, use the argument pt=F (T is for the Portuguese language).
 
@@ -38,7 +38,7 @@ The 'forestry' package emerged with the need to speed up the calculation of volu
 
 #If you want to generate a table with a volume of protected species, indicate them in the 'prot' argument:
 
-`acs(x, A=27, a=0.1, E=0.1, p=0.05, pt=F, prot=c(Caryocar brasiliense, Myracrodruon Urundeuva))`
+`acs(x, A=27, a=0.1, E=0.1, p=0.05, pt=F, prot=c(Caryocar brasiliense, Myracrodruon urundeuva))`
 
 #If rn = T, the sample intensity is recalculated again from the value of t based on the first result of the sample intensity. The 'ampl' argument indicates the range of classes for the diametric distribution graph.
 
@@ -61,7 +61,7 @@ The 'forestry' project is underway and aims to include other processes and metho
 Pellico Netto, S.; Brena, D. (1997). Inventario florestal. Curitiba: Universidade Federal do Parana, 316 p.
 
 ## Contact
-Created by [@forestrypackage](https://www.instagram.com/forestrypackage/) - Contact us for the course 'Forest Inventory with R'
+Created by [@forestrypackage](https://www.instagram.com/forestrypackage/) - Contact us for the course 'Forest Inventory with R':
 <cobelo.igor@gmail.com>
 
 To cite 'forestry' in publications, please use:
